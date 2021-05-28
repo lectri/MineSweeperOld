@@ -12,13 +12,9 @@ caption = "MineSweeper"
 window = pyglet.window.Window(WIDTH, HEIGHT, caption=caption)
 rectangle_batch = pyglet.graphics.Batch()
 line_batch = pyglet.graphics.Batch()
-# Change Background
-glClearColor(128, 128, 128, 1.0)
 
-buttons = []
+
 # Sprites
-
-
 class Rectangle:
     def __init__(self, x, y, has_bomb):
         self.has_bomb = has_bomb
@@ -35,7 +31,7 @@ class Rectangle:
 buttons = []
 lines = []
 
-
+# Create Grid
 class Grid(Rectangle):
     def create_grid(*self):
         # Create Rectangles
