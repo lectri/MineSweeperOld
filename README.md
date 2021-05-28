@@ -11,7 +11,7 @@ git clone https://github.com/lectri/MineSweeper/
 ```
 After that, you must install the pyglet module. This can be done with the following command:
 ```
-pip install Pyglet
+python3 -m pip install Pyglet
 ```
 Finally, run `main.py` and you'll be able to play.
 
